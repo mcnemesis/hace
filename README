@@ -1,0 +1,19 @@
+Hace! 
+
+Is something I started because I hadn't found / had access to no alternative.
+It is a game that tests and strenghens your programming skills, while giving fun
+and achievement at the same time. It's a hacking game if you want to call it that.
+
+The game's idea is currently simple;
+- the game presents code-challenges (in form of jumbled code, desired output, some description)
+- the player has a fixed amount of time to crack the challenge, by 
+deciphering the code into a correct format that when executed (using the game's internally provided interpreter
+ -- in the current version, only python is supported)
+- you score points as you execute the trial code, till when you either score above the challenge threshold
+ (around 70 points) for you to be able to move on to the next challenge, climb levels, get accolades/ badges, etc
+
+-- current game mode is offline.
+
+-- currently, the platforms I've tested with are opensuse 11.3
+-- the game is built using c++ (with qt and yaml-cpp)
+-- the game simply requires that you have the 'hace' game executable in the same directory as the 'challenges.yaml' (this will change later on)
